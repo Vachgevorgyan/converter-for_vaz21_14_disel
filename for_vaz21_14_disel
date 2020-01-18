@@ -1,0 +1,14 @@
+#include <iostream>
+
+int main()
+{
+    using namespace std;
+    const int hun_km_disel = 11;
+ float km;
+ cout << "Enter kilometr(s) you have covered: " <<endl;
+ cin >> km;
+ float result = km / hun_km_disel;
+ cout << "On " << km << " kilometrs you have spended " << result << " litr disel(s)."<<endl; 
+ return 0;
+ 
+}
